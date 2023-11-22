@@ -9,15 +9,15 @@
         <link rel="stylesheet" href="random.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light flex align-center justify-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" class="d-inline-block align-top" alt="logo">
               </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse " id="navbarSupportedContent" style="display: flex; justify-content:flex-end">
+            <div class="collapse navbar-collapse " id="collapsibleNavbar" style="display: flex; justify-content: flex-end;">
                <div style="margin: 1rem 0;">
                 <form class="form-inline my-2 my-lg-0"  >
                     <ul class="navbar-nav mr-auto">
@@ -37,32 +37,28 @@
             </div>
         </nav>
         <h1 class="description" style="text-align: center;">Contact Us</h1>
-        <pre>
-            We are 2015 established restaurant which servees in over 10+ states all over the country
-        </pre>
-
         <form id="contactForm" action="#" method="post">
-            <h2>Contact Us</h2>
+            <!-- <h2>Contact Us</h2> -->
             <div class="input-group">
-              <label for="name">Name</label>
+              <label for="name"><b style="font-size: 20px;">Name</b></label>
               <input type="text" id="name" name="name" required placeholder="Enter Your Name">
             </div>
             <div class="input-group">
-              <label for="email">Email</label>
+              <label for="email"><b style="font-size: 20px;">Email</b></label>
               <input type="email" id="email" name="email" required placeholder="Enter your Email">
             </div>
             <div class="input-group">
-              <label for="contactNumber">Contact Number</label>
+              <label for="contactNumber"><b style="font-size: 20px;">Contact Number</b></label>
               <input type="tel" id="contactNumber" name="contactNumber" placeholder="Enter Your Contact Number" required>
             </div>
             <div class="input-group">
-              <label for="reviews">Reviews</label>
+              <label for="reviews"><b style="font-size: 20px;">Reviews</b></label>
               <textarea id="reviews" name="reviews" rows="4" required></textarea>
             </div>
             <div class="input-group">
               <button type="submit">Submit</button>
             </div>
-          </form>
+        </form>
 
         <footer>
             <div class="footer-container container">

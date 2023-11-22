@@ -68,10 +68,10 @@ nav{
     line-height: 1.2;
     font-weight: 400px;
 }
-.explore-btn{
+/* .explore-btn{
     background-color: orange;
     align-self: flex-start;
-}
+} */
 .menu-btn{
     background-color: green;
     align-self: center;
